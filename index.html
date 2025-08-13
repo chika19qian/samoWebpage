@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SamoDiary - 您的温柔情绪伴侣</title>
+    <meta name="description" content="SamoDiary是一款轻量疗愈型日记与情绪练习应用，帮助用户更温柔地自我照顾">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- 语言切换器 -->
+    <div class="language-switcher">
+        <button class="lang-btn active" data-lang="zh">中文</button>
+        <button class="lang-btn" data-lang="en">English</button>
+        <button class="lang-btn" data-lang="ja">日本語</button>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="img/app-icon.png" alt="SamoDiary" class="logo-img">
+                <span class="logo-text">SamoDiary</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features" data-i18n="nav.features">功能特色</a>
+                <a href="#download" data-i18n="nav.download">下载</a>
+                <a href="#about" data-i18n="nav.about">关于我们</a>
+                <a href="#support" data-i18n="nav.support">支持与社区</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-i18n="hero.title">您的温柔情绪伴侣</h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">SamoDiary是一款轻量疗愈型日记与情绪练习应用，旨在帮助用户更温柔地自我照顾。通过AI向导和情绪练习，让每一天都充满温暖与关怀。</p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary" data-i18n="hero.download">立即下载</a>
+                    <a href="#features" class="btn btn-secondary" data-i18n="hero.learnMore">了解更多</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/app-icon.png" alt="SamoDiary应用图标" class="app-icon">
+            </div>
+        </div>
+    </section>
+
+    <!-- 功能特色 -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title" data-i18n="features.title">功能特色</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3 data-i18n="features.emotion.title">情绪记录与日记</h3>
+                    <p data-i18n="features.emotion.desc">支持快速记录日常情绪与事件，提供简洁、可爱的界面，让记录过程更轻松。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧘</div>
+                    <h3 data-i18n="features.practice.title">情绪觉察与练习</h3>
+                    <p data-i18n="features.practice.desc">内置多种轻量情绪练习，如呼吸训练、情绪识别、反思小测，可根据用户当前心情推荐适合的练习方式。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3 data-i18n="features.ai.title">AI 向导与互动</h3>
+                    <p data-i18n="features.ai.desc">由两位角色 Nova（冥想）与 Sola（积极心理）担任情绪向导，通过对话引导进入小游戏与反思流程。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎮</div>
+                    <h3 data-i18n="features.gamification.title">主线与日常任务</h3>
+                    <p data-i18n="features.gamification.desc">主线剧情带领玩家修复魔法森林，通过章节推进解锁新区域与角色。日常任务包含可独立完成的短时情绪照顾活动。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3 data-i18n="features.privacy.title">数据与隐私</h3>
+                    <p data-i18n="features.privacy.desc">支持本地存储与云端备份，确保隐私与安全。提供锁定功能与加密传输，保护个人记录。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💝</div>
+                    <h3 data-i18n="features.healing.title">温柔疗愈空间</h3>
+                    <p data-i18n="features.healing.desc">为用户提供一个温柔的空间，让他们在日常生活中有机会停下来、关注自己的情绪，建立稳定的自我照顾习惯。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI向导介绍 -->
+    <section class="ai-guides">
+        <div class="container">
+            <h2 class="section-title" data-i18n="guides.title">AI情绪向导</h2>
+            <div class="guides-container">
+                <div class="guide-card nova">
+                    <div class="guide-avatar"><img src="img/nova.png" alt="Nova"></div>
+                    <h3>Nova</h3>
+                    <p class="guide-role" data-i18n="guides.nova.role">冥想向导</p>
+                    <p class="guide-desc" data-i18n="guides.nova.desc">帮助您通过冥想和呼吸练习找到内心的平静，在忙碌的生活中创造宁静时刻。</p>
+                </div>
+                <div class="guide-card sola">
+                    <div class="guide-avatar"><img src="img/sola.png" alt="Sola"></div>
+                    <h3>Sola</h3>
+                    <p class="guide-role" data-i18n="guides.sola.role">积极心理向导</p>
+                    <p class="guide-desc" data-i18n="guides.sola.desc">引导您发现生活中的美好，培养积极心态，建立健康的自我认知。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 下载区域 -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2 class="section-title" data-i18n="download.title">立即下载</h2>
+            <div class="download-content">
+                <div class="download-info">
+                    <h3 data-i18n="download.subtitle">在App Store下载SamoDiary</h3>
+                    <p data-i18n="download.version">支持iOS 13.0及以上版本</p>
+                    <div class="app-store-info">
+                        <div class="app-id">
+                            <strong>Apple ID:</strong> 6742567188
+                        </div>
+                        <div class="domain">
+                            <strong data-i18n="download.website">官方网站:</strong> samodiary.com
+                        </div>
+                    </div>
+                    <a href="https://apps.apple.com/app/id6742567188" class="btn btn-app-store" target="_blank">
+                        <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="下载到App Store">
+                    </a>
+                </div>
+                <div class="download-image">
+                    <img src="img/app-icon.png" alt="SamoDiary应用" class="download-app-icon">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 支持中心 -->
+    <section id="support" class="support">
+        <div class="container">
+            <h2 class="section-title" data-i18n="support.title">支持与社区</h2>
+            <div class="support-cards">
+                <div class="support-card">
+                    <h3 data-i18n="support.github.title">支持与常见问题（GitHub）</h3>
+                    <p data-i18n="support.github.desc">访问我们的支持站点，查看常见问题与最新公告。</p>
+                    <a class="btn btn-secondary" href="https://github.com/chika19qian/SamoDiary-support" target="_blank" rel="noopener" data-i18n="support.github.btn">前往 Support 仓库</a>
+                </div>
+                <div class="support-card">
+                    <h3 data-i18n="support.community.title">社区与更新</h3>
+                    <p data-i18n="support.community.desc">在小红书搜索账号“Chika不学了”，小红书号 7251358474 以追踪应用最新动态；也可通过主页加入小红书群参与交流。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about.title">关于SamoDiary</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-i18n="about.mission">SamoDiary诞生于对用户心理健康的深深关怀。我们相信，每一个人都值得被温柔对待，包括自己。</p>
+                    <p data-i18n="about.purpose">我们的使命是帮助用户在日常生活中建立稳定的自我照顾习惯，通过轻量、低压力的互动，让情绪管理变得简单而有效。</p>
+                    <p data-i18n="about.vision">无论您是在面对压力、情绪低落，还是单纯想记录美好瞬间，SamoDiary都能作为一个贴心的陪伴者，陪您走过每一天的旅程。</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label" data-i18n="about.stats.users">活跃用户</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label" data-i18n="about.stats.moments">美好回忆</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5.0</div>
+                        <div class="stat-label" data-i18n="about.stats.rating">用户评分</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="img/app-icon.png" alt="SamoDiary" class="footer-logo-img">
+                        <span>SamoDiary</span>
+                    </div>
+                    <p data-i18n="footer.tagline">记录您与毛孩子的美好时光</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-i18n="footer.quickLinks">快速链接</h4>
+                    <a href="#features" data-i18n="nav.features">功能特色</a>
+                    <a href="#download" data-i18n="nav.download">下载</a>
+                    <a href="#about" data-i18n="nav.about">关于我们</a>
+                    <a href="#support" data-i18n="nav.support">支持与社区</a>
+                </div>
+                <div class="footer-section">
+                    <h4 data-i18n="footer.contact">联系信息</h4>
+                    <p data-i18n="footer.website">官方网站: samodiary.com</p>
+                    <p>Apple ID: 6742567188</p>
+                    <p><a href="https://github.com/chika19qian/SamoDiary-support" target="_blank" rel="noopener" data-i18n="footer.supportLink">支持站点（GitHub）</a></p>
+                    <p class="icp"><span data-i18n="footer.icpLabel">ICP备案号：</span><span id="icp-number">鄂ICP备2025135789号-1A</span></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SamoDiary. <span data-i18n="footer.rights">保留所有权利。</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

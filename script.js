@@ -209,6 +209,9 @@ lazyLoadImages();
 // =====================
 const I18N_DICTIONARY = {
     zh: {
+        'meta.title': 'SamoDiary - 和小萨摩一起写日记',
+        'meta.desc': 'SamoDiary是一款轻量疗愈型日记与情绪练习应用，帮助用户更温柔地自我照顾',
+
         'nav.features': '功能特色',
         'nav.download': '下载',
         'nav.about': '关于我们',
@@ -242,6 +245,7 @@ const I18N_DICTIONARY = {
         'download.title': '立即下载',
         'download.subtitle': '在App Store下载SamoDiary',
         'download.version': '支持iOS 17.0及以上版本',
+        'download.startJourney': '开启你的疗愈之旅吧～',
         'download.website': '官方网站:',
 
         'about.title': '关于SamoDiary',
@@ -263,6 +267,9 @@ const I18N_DICTIONARY = {
         '__meta.desc': 'SamoDiary是一款轻量疗愈型日记与情绪练习应用，帮助用户更温柔地自我照顾。'
     },
     en: {
+        'meta.title': 'SamoDiary - Write with Your Samoyed',
+        'meta.desc': 'SamoDiary is a light, healing diary and CBT-style emotional practice app. Walk into a magical forest with your Samoyed companion and discover a better you.',
+
         'nav.features': 'Features',
         'nav.download': 'Download',
         'nav.about': 'About',
@@ -296,6 +303,7 @@ const I18N_DICTIONARY = {
         'download.title': 'Download now',
         'download.subtitle': 'Get SamoDiary on the App Store',
         'download.version': 'Supports iOS 17.0 and later',
+        'download.startJourney': 'Start your healing journey now!',
         'download.website': 'Website:',
 
         'about.title': 'About SamoDiary',
